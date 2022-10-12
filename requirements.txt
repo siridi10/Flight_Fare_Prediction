@@ -1,8 +1,14 @@
 absl-py==0.15.0
 alabaster==0.7.12
+<<<<<<< HEAD
 anaconda-client==1.9.0
 anaconda-navigator==1.9.7
 anaconda-project==0.8.2
+=======
+anaconda-client==1.1.2
+anaconda-navigator==1.1.2
+anaconda-project==1.1.2
+>>>>>>> 0f946d442df8653dc5072dbf65e85fb0fc3b3250
 appdirs==1.4.4
 asn1crypto==0.24.0
 astor==0.8.1
