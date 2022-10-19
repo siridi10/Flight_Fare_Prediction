@@ -20,3 +20,4 @@ wincertstore
 gunicorn
 scipy
 matplotlib
+pickle
