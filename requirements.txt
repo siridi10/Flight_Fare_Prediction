@@ -10,7 +10,7 @@ joblib
 MarkupSafe
 numpy
 pandas
-python-dateutil
+python-dateutil==2.8.0
 pytz
 scikit-learn
 six
