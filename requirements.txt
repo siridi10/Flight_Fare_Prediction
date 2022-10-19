@@ -19,5 +19,4 @@ Werkzeug
 wincertstore
 gunicorn
 scipy
-matplotlib
 pickle
