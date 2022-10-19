@@ -1,6 +1,7 @@
 appdirs
 certifi
 click
+python_version ==3.7
 distlib
 Flask
 Flask-Cors
