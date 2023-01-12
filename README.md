@@ -22,4 +22,5 @@ git push -u origin main
 [Data set](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
 
 ### Project Deployment link - 
+> https://flightfarepredictusingml.herokuapp.com/
 
