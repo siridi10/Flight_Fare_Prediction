@@ -1,5 +1,5 @@
 # Flight_Fare_Prediction
-''' git
+```
 echo "# ineuron-intern-Project" >> README.md
 git init
 git add README.md
@@ -7,7 +7,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/siridi10/Flight_Fare_Prediction
 git push -u origin main
-'''
+```
 
 ### Project Title - Flight Fare Prediction
 
@@ -19,7 +19,8 @@ git push -u origin main
 ### Approch
 > The classical machine learning tasks like Data Exploration, Data Cleaning, Feature Engineering, Model Building, and Model Testing. Try out different machine learning algorithms that’s best fit for the above case.
 
-[Data set](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
+## Data Set Url
+> [Data set](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
 
 
 ## Steps
