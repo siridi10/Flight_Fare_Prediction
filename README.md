@@ -21,6 +21,22 @@ git push -u origin main
 
 [Data set](https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
 
-### Project Deployment link - 
-> https://flightfarepredictusingml.herokuapp.com/
 
+## Steps
+1. Importing the library
+2. Reading Dataset
+3. Data Preprocessing
+4. Exploratory Data Analysis(EDA)
+5. Handling Categorical as well as Numarical Data
+6. Performing Feature Selection
+7. Model Training
+8. Making pkl file
+9. Testing
+10. Production
+11. Deployment
+
+### Project Deployment link - 
+> [Deployed Link](https://flightfarepredictusingml.herokuapp.com/)
+
+## Author
+[Siridi Nath](https://github.com/siridi10)
