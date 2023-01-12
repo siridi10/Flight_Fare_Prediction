@@ -4,15 +4,13 @@ import pickle
 import pandas as pd
 
 app = Flask(__name__)
-model = pickle.load(open("flight_pred.pkl", "rb"))
+model = pickle.load(open('flight_pred.pkl', 'rb'))
 
-
-@app.route("/")
-@cross_origin()
+@app.route('/')
 def home():
-    return render_template("home.html")
+    return render_template('home.html')
 
-@app.route("/predict", methods=["GET", "POST"])
+@app.route('/predict', methods=["GET", "POST"])
 @cross_origin()
 def predict():
     if request.method == "POST":
@@ -216,24 +214,24 @@ def predict():
             s_Mumbai = 0
             s_Chennai = 0
 
-
         elif Source == 'Mumbai':
             s_Delhi = 0
             s_Kolkata = 0
             s_Mumbai = 1
             s_Chennai = 0
 
-        elif Source == 'Chennai':
+        elif (Source == 'Chennai'):
             s_Delhi = 0
             s_Kolkata = 0
             s_Mumbai = 0
             s_Chennai = 1
-            
+
         else:
             s_Delhi = 0
             s_Kolkata = 0
             s_Mumbai = 0
             s_Chennai = 0
+
        
         Source = request.form["Destination"]
         if Source == 'Cochin':
@@ -257,7 +255,6 @@ def predict():
             d_Hyderabad = 0
             d_Kolkata = 0
 
-
         elif Source == 'Hyderabad':
             d_Cochin = 0
             d_Delhi = 0
@@ -271,7 +268,6 @@ def predict():
             d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 1
-            
 
         else:
             d_Cochin = 0
