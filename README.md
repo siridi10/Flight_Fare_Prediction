@@ -9,6 +9,8 @@ git remote add origin https://github.com/siridi10/Flight_Fare_Prediction
 git push -u origin main
 ```
 
+Main File link - https://colab.research.google.com/drive/1Nk4CCQjEPPttL5npal6SdujNI-6JP81X 
+
 ### Project Title - Flight Fare Prediction
 
 ### Problem Statement
